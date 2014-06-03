@@ -1,0 +1,88 @@
+/*
+ * style.css
+ *
+ * Copyright (C) 2014 Mathieu Gaborit (matael) <mathieu@matael.org>
+ *
+ *
+ * Distributed under WTFPL terms
+ *
+ *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ *                    Version 2, December 2004
+ *
+ * Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ *
+ * Everyone is permitted to copy and distribute verbatim or modified
+ * copies of this license document, and changing it is allowed as long
+ * as the name is changed.
+ *
+ *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ *   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ *
+ *  0. You just DO WHAT THE FUCK YOU WANT TO.
+ *
+ */
+
+@font-face {
+	font-family: 'Nova Square';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Nova Square'), local('NovaSquare'), url(../font/nova.woff) format('woff');
+}
+
+body {
+	font-family: 'Nova Square';
+	background: #D0D4D7;
+	font-size: 1.4em;
+	color:  #546573;
+	line-height: 1.2em;
+}
+
+.center, .important {
+	display: block;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.important, .red, #thanks h3 {
+	color: #F26464;
+}
+
+em {
+	font-style: normal;
+	color: #0d8389;
+}
+
+h2 {
+	text-indent: -20px;
+	color: #0D8389;
+}
+
+h1 {
+	text-align: center;
+}
+
+#title {
+	text-align: center;
+	font-size: 2em;
+}
+
+#title img {
+	margin-left: 50px;
+}
+
+#title img:last-child {
+	padding-bottom: 25px;
+}
+
+#haum img {
+	float: right;
+	margin-right: 0;
+}
+
+#thanks h1 {
+	font-size: 120px;
+}
+
+#thanks img {
+	float: right;
+}
